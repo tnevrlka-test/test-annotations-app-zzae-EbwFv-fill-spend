@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-bcab
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-cjra-tenant/test-annotations-app-zzae/test-annotations-bcab@sha256:80190be7bd03cb96d4c5052307f37aff3cb301f5d5b13527312a23c95f85b35f
         name: my-nginx
         ports:
         - containerPort: 8080
